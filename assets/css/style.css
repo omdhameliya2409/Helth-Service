@@ -17,6 +17,10 @@ body {
     --sixth-color: rgba(84, 109, 229, 0.85);
 }
 
+header{
+    background: #fff;
+}
+
 .sub_title {
     color: var(--primary-color);
 }
@@ -337,7 +341,7 @@ body {
 .card {
     text-align: center;
     padding: 30px;
-    background: var(--fourth-color);
+    background: var(--primary-color);
     color: #fff;
     border-radius: 0;
     border: none;
@@ -347,18 +351,6 @@ body {
     transform-style: preserve-3d;
     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.25);
     transition: 0.6s ease transform;
-}
-
-.card1 {
-    background: var(--fifth-color);
-}
-
-.card2 {
-    background: var(--sixth-color);
-}
-
-.card3 {
-    background: var(--primary-color);
 }
 
 .card_img img {
@@ -511,13 +503,13 @@ body {
 .owl-page {
     height: 10px;
     width: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #12152157;
     border-radius: 100%;
 }
 
 .owl-page:hover,
 .owl-page.active {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #121521;
 }
 
 .owl-page:not(first-item) {
@@ -593,6 +585,10 @@ body {
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.feedback_r{
+    margin: 50px 25px;
 }
 
 .accordion-button{
@@ -769,6 +765,7 @@ footer::before{
     background: var(--primary-color);
     border-radius: 50px;
     transition: all 0.5s ease-in-out;
+    opacity: 0;
 }
 
 .footer_list:hover{
@@ -777,6 +774,7 @@ footer::before{
 
 .footer_list:hover::before{
     height: 20px;
+    opacity: 1;
 }
 
 .copy{

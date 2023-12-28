@@ -17,7 +17,40 @@
     }
 }
 
-@media screen and (min-width:1201px) {}
+@media (min-width: 1025px) and (max-width:1440px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1350px;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .top_banner::before{
+        width: 95%;
+    }
+
+    .customers::before {
+        width: 95%;
+    }
+
+    footer::before {
+        width: 95%;
+    }
+
+    .d_name {
+        font-size: 18px;
+    }
+
+    .doctor_body {
+        width: 86%;
+    }
+
+}
 
 
 @media screen and (min-width:1025px) and (max-width:1200px) {}
@@ -90,7 +123,7 @@
     }
 
     .feedback_r{
-        margin-top: 35px
+        margin-top: 50px
     }
 
     .customers::before {
@@ -140,7 +173,7 @@
     }
 
     .feedback_r{
-        margin-top: 35px
+        margin-top: 50px
     }
 
     .customers::before {
@@ -187,7 +220,7 @@
     }
 
     .feedback_r{
-        margin-top: 35px
+        margin-top: 50px
     }
 
     .customers::before {
@@ -219,6 +252,24 @@
     #order_1{
         order: 2;
     }
+
+    .navbar-brand {
+        font-size: 2.5rem;
+    }
+
+    .form-control{
+        font-size: 0.9rem;
+    }
+
+    .card{
+        box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.25);
+    }
+
+    .btn1 {
+        padding: 8px 44px 8px 5px;
+    }
+    
+    
 }
 
 
@@ -228,4 +279,31 @@
         flex-direction: column;
         gap: 5px;
     }
+
+    .navbar-brand {
+        font-size: 2.5rem;
+    }
+
+    .form-control{
+        font-size: 0.9rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.9rem;
+    }
+
+    .search {
+        margin-right: 5px;
+    }
+
+    .btn1 {
+        padding: 8px 44px 8px 5px;
+        font-size: 0.8rem;
+    }
+
+    .btn1 .btn_icon{
+        height: 25px;
+    width: 25px;
+    }
+    
 }
