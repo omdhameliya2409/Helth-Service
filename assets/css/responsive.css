@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (min-width:1201px) {
+@media screen and (min-width:1201px){
     .top_banner::before{
         width: 95%;
     }
@@ -137,6 +137,30 @@
     footer::before {
         width: 95%;
     }
+
+    .contact_form1::before {
+        left: 22px;
+        width: 330px;
+        height: 397px;
+    }
+
+    .our_service::before {
+        right: -1px;
+        width: 27%;
+    }
+
+    .mission_body div {
+        font-size: 18px;
+    }
+
+    .award1::before {
+        width: 26%;
+    }
+
+    .frequntly_banner::before {
+        background-size: cover;
+        background-position: center right;
+    }
 }
 
 @media screen and (min-width:821px) and (max-width:912px) {}
@@ -187,6 +211,40 @@
 
     footer::before {
         width: 95%;
+    }
+
+    .our_service::before {
+        right: -48%;
+    }
+
+    .about_us_banner::before {
+        background-size: cover;
+        background-attachment: local;
+        background-position: 29% 50%;
+    }
+
+    .mission_banner::after {
+        display: none;
+    }
+
+    .mission_banner::before {
+        display: none;
+    }
+
+    .award1::before {
+        display: none;
+    }
+
+    .contact_form1::before {
+        width: 605px;
+    }
+
+    .frequntly_banner::before {
+        display: none;
+    }
+
+    .featured_img1 {
+        width: 25%;
     }
 }
 
@@ -274,8 +332,47 @@
         flex-direction: column;
         gap: 5px;
     }
+
+    .top_menu1{
+        flex-direction: column;
+    }
     
-    
+    .top_menu a {
+        font-size: 16px;
+    }
+
+    .our_service::before{
+        display: none;
+    }
+
+    .about_us_banner::before{
+        display: none;
+    }
+
+    .mission_banner::after {
+        display: none;
+    }
+
+    .mission_banner::before {
+        display: none;
+    }
+
+    .award1::before {
+        display: none;
+    }
+
+    .contact_form1::before {
+        left: 22px;
+        width: 354px;
+    }
+
+    .frequntly_banner::before{
+        display: none;
+    }
+
+    .featured_img1 {
+        width: 40%;
+    }
 }
 
 
@@ -311,5 +408,23 @@
         height: 25px;
     width: 25px;
     }
+
+    .contact_form1::before {
+        left: 22px;
+        width: 307px;
+        height: 424px;
+    }
+
+    .top_menu a {
+        font-size: 14px;
+    }
     
 }
+
+@media screen and (max-width:320px){
+
+    .contact_form1::before {
+        display: none;
+    }
+}
+

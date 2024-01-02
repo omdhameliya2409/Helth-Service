@@ -33,3 +33,15 @@ $(document).ready(function() {
       autoPlay: true
     });
   });
+
+  $(document).ready(function() {
+    $("#doctor-slider1").owlCarousel({
+      items: 4,
+      itemsDesktop:[1024,3],
+      itemsDesktopSmall:[979,2],
+      itemsTablet:[768, 2],
+      itemsMobile:[650, 1],
+      pagination: true,
+      autoPlay: true
+    });
+  });
